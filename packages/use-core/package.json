@@ -1,11 +1,12 @@
 {
-  "name": "@snov/core",
-  "version": "0.1.1",
-  "description": "Core package",
+  "name": "@snov/use-core",
+  "version": "0.1.0",
+  "description": "Use of other inner package example",
   "repository": {
     "type": "git",
     "url": "https://github.com/noviel/typescript-library-template.git"
   },
+  "homepage": "http://example.com",
   "author": "Alexander \"snov\" Semenchenko",
   "main": "src/index.ts",
   "publishConfig": {
@@ -25,11 +26,14 @@
     ]
   },
   "devDependencies": {
+    "@types/node": "^12.7.3",
+    "typescript": "^3.6.2",
     "@pika/pack": "^0.5.0",
-    "@pika/plugin-build-node": "^0.6.0",
     "@pika/plugin-ts-standard-pkg": "^0.6.0",
     "@pika/types": "^0.6.0",
-    "@types/node": "^12.7.3",
-    "typescript": "^3.6.2"
+    "@pika/plugin-build-node": "^0.6.0"
+  },
+  "dependencies": {
+    "@snov/core": "^0.1.1"
   }
 }
