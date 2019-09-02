@@ -1,9 +1,12 @@
 {
-  "name": "@jtl/consumer",
+  "name": "consumer",
   "version": "0.1.0",
-  "description": "Test consuming of @jtl",
+  "description": "Test consuming of a library",
   "main": "index.js",
   "author": "Alexander \"Snov\" Semenchenko",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@snov/use-core": "^0.1.1"
+  }
 }
