@@ -1,0 +1,26 @@
+{
+  "name": "typescript-library-template-root",
+  "version": "0.1.0",
+  "description": "TypeScript Library Template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noviel/typescript-library-template.git"
+  },
+  "homepage": "http://example.com",
+  "author": "Alexander \"snov\" Semenchenko",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "lerna": "^3.16.4",
+    "lerna-wizard": "^1.1.1"
+  },
+  "scripts": {
+    "vrsn": "lerna version",
+    "bld": "lerna run build",
+    "pblsh": "lerna publish from-package --contents pkg",
+    "rls": "yarn vrsn && yarn bld && yarn pblsh"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true
+}

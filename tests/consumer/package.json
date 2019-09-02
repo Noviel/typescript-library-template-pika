@@ -1,0 +1,9 @@
+{
+  "name": "@jtl/consumer",
+  "version": "0.1.0",
+  "description": "Test consuming of @jtl",
+  "main": "index.js",
+  "author": "Alexander \"Snov\" Semenchenko",
+  "license": "MIT",
+  "private": true
+}
